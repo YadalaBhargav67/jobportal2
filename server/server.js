@@ -112,6 +112,7 @@ app.post("/login", (req, res) => {
       message: "Email and password are required",
     });
   }
+  //hi hello
 
   const sql = "SELECT * FROM users WHERE email = ?";
 
