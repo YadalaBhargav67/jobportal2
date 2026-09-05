@@ -1,6 +1,6 @@
-console.log("***** NEW SERVER.JS IS RUNNING *****");
+// console.log("***** NEW SERVER.JS IS RUNNING *****");
 
-const express = require("express");
+// const express = require("express");
 const cors = require("cors");
 const db = require("./db");
 const jwt = require("jsonwebtoken");
