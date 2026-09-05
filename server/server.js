@@ -108,7 +108,7 @@ app.post("/login", (req, res) => {
 
   if (!email || !password) {
     return res.status(400).json({
-      success: true,
+      success: false,
       message: "Email and password are required",
     });
   }
