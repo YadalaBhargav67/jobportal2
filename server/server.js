@@ -9,8 +9,8 @@ const app = express();
 
 const JWT_SECRET = "jobportal_secret_key";
 
-// app.use(cors());
-// app.use(express.json());
+app.use(cors());
+app.use(express.json());
 
 // JWT Verification Middleware
 const verifyToken = (req, res, next) => {
