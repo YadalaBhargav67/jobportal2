@@ -1,11 +1,11 @@
-// console.log("***** NEW SERVER.JS IS RUNNING *****");
+console.log("***** NEW SERVER.JS IS RUNNING *****");
 
 // const express = require("express");
-const cors = require("cors");
-const db = require("./db");
-const jwt = require("jsonwebtoken");
+// const cors = require("cors");
+// const db = require("./db");
+// const jwt = require("jsonwebtoken");
 
-const app = express();
+// const app = express();
 
 const JWT_SECRET = "jobportal_secret_key";
 
